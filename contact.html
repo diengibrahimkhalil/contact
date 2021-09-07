@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.sss.css">
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li ><a href="home.html">Home</a></li>
+			<li><a href="info.html">info</a></li>
+			<li><a href="offer.html">offer</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	<div id="logo">
+		<img src="logo.jpg">
+		</div>
+	<div class="coordonnées">
+                
+        <legend><strong>Vos coordonnées</strong></legend>
+        <table>
+            <tr>
+                <td>
+                    Nom:
+                </td>
+                <td>
+                    <input type="text" placeholder="Votre Nom" name="" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Prénom:
+                </td>
+                <td>
+                    <input type="text" placeholder="Votre prénom" name="" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date de naissance:
+                </td>
+                <td>
+                    <input type="date" placeholder="jj/mm/aaaa" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mail:
+                </td>
+                <td>
+                    <input type="email" placeholder="Votre mail" name="" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Votre site:
+                </td>
+                <td>
+                    <input type="url" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Code postale:
+                </td>
+                <td>
+                    <input type="text" name="" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Genre:
+                </td>
+                <td>
+                    <input type="radio" name="civil"/>homme
+                    <br>
+                    <input type="radio" name="civil"/>femme
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pays:
+                </td>
+                <td>
+                    <select name="Pays">
+                            <option value="Pays">Votre Pays</option>
+                        <optgroup label="Afrique">
+                            <option value="Sénégal">Sénégal</option>
+                            <option value="Maroc">Maroc</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Mauritanie">Mauritanie</option>
+                            <option value="Ghana">Ghana</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="France">France</option>
+                            <option value="Belgique">Belgique</option>
+                            <option value="Allemagne">Allemagne</option>
+                        </optgroup>
+                        <optgroup label="Amérique">
+                            <option value="Argentine">Argentine</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Brézil">Brézil</option>
+    
+                        </optgroup>
+                      </select><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="gouts">
+        <legend><strong>Vos sons preéféres</strong></legend>
+        <table>
+            <input type="checkbox"/><label>HIP/HOP</label><br>
+            <input type="checkbox"/><label>MBALAKH</label><br>
+            <input type="checkbox"/><label>CABO</label><br>
+            <textarea id="prez" rows="5" cols="50" placeholder="Décrivez vos sons préférés en détails"></textarea>
+        </table>
+    </div>
+    <div class="identifiant">
+        <legend><strong>Envoyez nous votre photo</strong></legend>
+        <table>
+            <input type="file">
+        
+            <p><input type="submit" value="Effacer">
+            <input type="submit" value="Envoyer"></p> 
+        </table>
+    </div>
+</body>
+</html>
